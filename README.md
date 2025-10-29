@@ -4,6 +4,8 @@ Hobby project using Common Lisp to solve numeric puzzles as those proposed by Pr
 
 This is a personal, exploratory project with no fixed roadmap. Its aim is essentially to improve my skills. Development happens irregularly as time permits.
 
+Any comment? Open an [issue](https://github.com/occisn/cl-problem-solving/issues), or start a discussion [here](https://github.com/occisn/cl-problem-solving/discussions) or [at profile level](https://github.com/occisn/occisn/discussions).
+
 
 ## Table of contents
 
