@@ -1,11 +1,14 @@
+(defpackage project-euler-5
+  (:use :cl))
 
-(defun project-euler-5 (n)
+(in-package :project-euler-5)
+
+(defun project-euler-5 (&optional (n 20))
   "Solve Project Euler 5."
   (let ((res 1))
     (loop for i from 1 to n do
           (setq res (lcm res i)))
     res))
 
-(project-euler-5 10) ; 2520
-(project-euler-5 20)
+;;; end
 

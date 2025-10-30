@@ -1,3 +1,7 @@
+(defpackage project-euler-9
+  (:use :cl))
+
+(in-package :project-euler-9)
 
 (defun project-euler-9 (&optional (n 1000))
   "Solve Project Euler 9."
