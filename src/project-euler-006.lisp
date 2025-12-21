@@ -1,7 +1,4 @@
-(defpackage project-euler-6
-  (:use :cl))
-
-(in-package :project-euler-6)
+(in-package :cl-problem-solving)
 
 (defun project-euler-6 (&optional (n 100))
   "Solve Project Euler 6."

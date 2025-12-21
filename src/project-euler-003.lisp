@@ -1,7 +1,4 @@
-(defpackage project-euler-3
-  (:use :cl))
-
-(in-package :project-euler-3)
+(in-package :cl-problem-solving)
 
 (defun largest-prime-factor (n)
   "Return the largest prime factor of N. N is supposed to be an integer > 1.
