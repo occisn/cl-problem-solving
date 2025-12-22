@@ -1,8 +1,12 @@
 (defpackage cl-problem-solving
   (:use cl)
   (:export
-   project-euler-1
-   project-euler-3
-   project-euler-5
-   project-euler-6
-   project-euler-9))
+   project-euler-001--not-optimized
+   project-euler-001
+   project-euler-003
+   project-euler-005--not-optimized
+   project-euler-005
+   project-euler-006--not-optimized
+   project-euler-006
+   project-euler-009--not-optimized
+   project-euler-009))

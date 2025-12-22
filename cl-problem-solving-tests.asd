@@ -4,8 +4,8 @@
   :components ((:module "tests"
                 :around-compile (lambda (next)
                                   (proclaim '(optimize (debug 0) 
-                                              (safety 3)
-                                              (speed 0)))
+                                              (safety 0)
+                                              (speed 3)))
                                   (funcall next))
                 :components ((:file "_package-tests")
                              ;;

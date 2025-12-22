@@ -3,6 +3,7 @@
 (defun largest-prime-factor (n)
   "Return the largest prime factor of N. N is supposed to be an integer > 1.
 (v1, available in occisn/cl-utils GitHub repository)"
+
   (declare (type fixnum n))
   
   (let ((largest 0))
@@ -37,11 +38,9 @@
 
     largest))
 
-(defun project-euler-3 (&optional (n 600851475143))
+(defun project-euler-003 (&optional (n 600851475143))
   "Solve Project Euler 3."
-
   (declare (type fixnum n))
-
   (largest-prime-factor n))
 
 ;;; end

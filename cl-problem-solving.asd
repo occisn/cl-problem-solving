@@ -10,8 +10,8 @@
   :serial t ; load files in order
   :around-compile (lambda (next)
                     (proclaim '(optimize (debug 0) 
-                                (safety 3)
-                                (speed 0)))
+                                (safety 0)
+                                (speed 3)))
                     (funcall next))
   :components ((:file "package")
                (:module "src"
@@ -20,7 +20,9 @@
                  (:file "project-euler-003")
                  (:file "project-euler-005")
                  (:file "project-euler-006")
-                 (:file "project-euler-009"))
+                 (:file "project-euler-009")
+                 (:file "main")
+                 )
                 ))
   :perform (load-op :after (op c)
                     (format t "~%Welcome in cl-problem-solving!~%"))
