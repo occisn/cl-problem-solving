@@ -31,8 +31,7 @@ For instance: 123 --> 321.
           finally (return max-palindrome))))
 
 (defun project-euler-004 (&optional (nb-digits 3))
-  "Solve Project Euler 4.
-Emacs Lisp with cl-lib"
+  "Solve Project Euler 4."
   (declare (type fixnum nb-digits))
   (let ((base (expt 10 (the (integer 0) (- nb-digits 1)))) ; 100 for nb-digits = 3
         (lim (the fixnum (- (the fixnum (expt 10 (the (integer 1) nb-digits)))
