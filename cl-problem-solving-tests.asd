@@ -10,6 +10,7 @@
                 :components ((:file "_package-tests")
                              ;;
                              (:file "project-euler-001-tests")
+                             (:file "project-euler-002-tests")
                              (:file "project-euler-003-tests")
                              (:file "project-euler-005-tests")
                              (:file "project-euler-006-tests")

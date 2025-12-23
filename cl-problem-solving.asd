@@ -17,6 +17,7 @@
                (:module "src"
                 :components
                 ((:file "project-euler-001")
+                 (:file "project-euler-002")
                  (:file "project-euler-003")
                  (:file "project-euler-005")
                  (:file "project-euler-006")
