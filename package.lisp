@@ -6,6 +6,8 @@
    project-euler-002--not-optimized
    project-euler-002
    project-euler-003
+   project-euler-004--not-optimized
+   project-euler-004
    project-euler-005--not-optimized
    project-euler-005
    project-euler-006--not-optimized
