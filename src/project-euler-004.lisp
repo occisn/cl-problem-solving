@@ -1,19 +1,19 @@
 (in-package :cl-problem-solving)
 
-(defun pe004--reverse-number--fixnum (n)
+(defun pe004-reverse-number--fixnum (n)
   "Reverse the N, which is supposed to be a fixnum >= 0.
 For instance: 123 --> 321.
 (v1, available in occisn/cl-utils GitHub repository)"
   (declare (type fixnum n))
-  (labels ((sub (acc)
-             (declare (type fixnum acc))
-             (if (= n 0)
+  (labels ((sub (num acc)
+             (declare (type fixnum num acc))
+             (if (= num 0)
 	         acc
-                 (let ((f (floor n 10))
-	               (r (mod n 10)))
-	           (pe004--reverse-number f (the fixnum (+ (* 10 acc) r)))))))
-    (sub 0)))
-
+                 (multiple-value-bind (quotient remainder)
+                     (floor num 10)
+                   (declare (type fixnum quotient remainder))
+                   (sub quotient (the fixnum (+ (the fixnum (* 10 acc)) remainder)))))))
+    (sub n 0)))
 
 (defun project-euler-004--not-optimized (&optional (nb-digits 3))
   "Solve Project Euler 4."
