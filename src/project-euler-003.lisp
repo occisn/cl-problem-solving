@@ -1,6 +1,6 @@
 (in-package :cl-problem-solving)
 
-(defun largest-prime-factor (n)
+(defun pe003-largest-prime-factor (n)
   "Return the largest prime factor of N. N is supposed to be an integer > 1.
 (v1, available in occisn/cl-utils GitHub repository)"
 
@@ -41,6 +41,6 @@
 (defun project-euler-003 (&optional (n 600851475143))
   "Solve Project Euler 3."
   (declare (type fixnum n))
-  (largest-prime-factor n))
+  (pe003-largest-prime-factor n))
 
 ;;; end
