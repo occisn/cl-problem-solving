@@ -7,6 +7,7 @@
   (format t "Project Euler   4: ~a~%" (project-euler-004))
   (format t "Project Euler   5: ~a~%" (project-euler-005))
   (format t "Project Euler   6: ~a~%" (project-euler-006))
-  (format t "Project Euler   7: ~a~%" (caar (project-euler-009))))
+  (format t "Project Euler   7: ~a~%" (project-euler-007))
+  (format t "Project Euler   9: ~a~%" (caar (project-euler-009))))
 
 ;;; end

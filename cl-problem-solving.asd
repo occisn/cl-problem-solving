@@ -22,9 +22,11 @@
                  (:file "project-euler-004")
                  (:file "project-euler-005")
                  (:file "project-euler-006")
+                 (:file "project-euler-007")
                  (:file "project-euler-009")
                  (:file "main"))))
   :perform (load-op :after (op c)
-                    (format t "~%Welcome in cl-problem-solving!~%"))
+                    (format t "~%Welcome in cl-problem-solving!~%~%")
+                    (cl-problem-solving:main))
   :in-order-to ((asdf:test-op (asdf:test-op :cl-problem-solving-tests))))
 

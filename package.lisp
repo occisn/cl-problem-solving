@@ -12,6 +12,7 @@
    project-euler-005
    project-euler-006--not-optimized
    project-euler-006
+   project-euler-007
    project-euler-009--not-optimized
    project-euler-009
    ;;
