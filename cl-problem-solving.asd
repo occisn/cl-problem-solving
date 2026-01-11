@@ -27,6 +27,6 @@
                  (:file "main"))))
   :perform (load-op :after (op c)
                     (format t "~%Welcome in cl-problem-solving!~%~%")
-                    (cl-problem-solving:main))
+                    (format t "Execute (cl-problem-solving:main) to solve all available problems at once.~%"))
   :in-order-to ((asdf:test-op (asdf:test-op :cl-problem-solving-tests))))
 
