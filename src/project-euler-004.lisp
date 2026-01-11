@@ -26,7 +26,7 @@ For instance: 123 --> 321.
           do (loop for j from i downto base
                    for product = (* i j)
                    while (> product max-palindrome)
-                   when (= product (pe004--reverse-number--fixnum product))
+                   when (= product (pe004-reverse-number--fixnum product))
                      do (setq max-palindrome product))
           finally (return max-palindrome))))
 
@@ -43,7 +43,7 @@ For instance: 123 --> 321.
           do (loop for j from i downto base
                    for product of-type fixnum = (* i j)
                    while (> product max-palindrome)
-                   when (= product (the fixnum (pe004--reverse-number--fixnum product)))
+                   when (= product (the fixnum (pe004-reverse-number--fixnum product)))
                      do (setq max-palindrome product))
           finally (return max-palindrome))))
 
