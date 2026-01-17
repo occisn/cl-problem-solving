@@ -21,16 +21,17 @@
 
     ;; Test divisors of the form 6k-1 and 6k+1
     (let ((i 5))
+      (declare (type fixnum i))
       (loop while (<= i (isqrt n)) do
-        (cond
-          ((= 0 (mod n i))
-           (setf largest i)
-           (setf n (/ n i)))
-          ((= 0 (mod n (+ i 2)))
-           (setf largest (+ i 2))
-           (setf n (/ n (+ i 2))))
-          (t
-           (incf i 6)))))
+            (cond
+              ((= 0 (mod n i))
+               (setf largest i)
+               (setf n (/ n i)))
+              ((= 0 (mod n (+ i 2)))
+               (setf largest (+ i 2))
+               (setf n (/ n (+ i 2))))
+              (t
+               (incf i 6)))))
 
     ;; If n is still > 1, it is prime
     (if (> n 1)

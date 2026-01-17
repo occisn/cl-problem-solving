@@ -1,5 +1,6 @@
 (in-package :cl-problem-solving)
 
+(declaim (inline pe007--primep))
 (defun pe007--primep (n)
   "Return t if and only if fixnum N is prime.
 (v1, available in occisn/cl-utils GitHub repository)"
@@ -15,6 +16,7 @@
           never (or (zerop (mod n factor))
                     (zerop (mod n (+ factor 2)))))))
 
+(declaim (inline pe007--next-prime))
 (defun pe007--next-prime (n)
   "Return next prime after fixnum N.
 Note: if N is prime, the result is not N.

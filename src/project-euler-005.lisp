@@ -12,7 +12,7 @@
   "Solve Project Euler 5."
   (declare (type fixnum n))
   (let ((res 1))
-    (declare (type fixnum res))
+    (declare (type integer res))
     (loop for i of-type fixnum from 1 to n do
       (setq res (lcm res i)))
     res))

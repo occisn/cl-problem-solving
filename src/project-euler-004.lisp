@@ -1,5 +1,6 @@
 (in-package :cl-problem-solving)
 
+(declaim (inline pe004-reverse-number--fixnum))
 (defun pe004-reverse-number--fixnum (n)
   "Reverse the N, which is supposed to be a fixnum >= 0.
 For instance: 123 --> 321.
@@ -38,9 +39,9 @@ For instance: 123 --> 321.
                             1)))  ; 999 for nb-digits = 3
         )
     (declare (type fixnum base lim))
-    (loop with max-palindrome = 0
-          for i from lim downto base
-          do (loop for j from i downto base
+    (loop with max-palindrome of-type fixnum = 0
+          for i of-type fixnum from lim downto base
+          do (loop for j of-type fixnum from i downto base
                    for product of-type fixnum = (* i j)
                    while (> product max-palindrome)
                    when (= product (the fixnum (pe004-reverse-number--fixnum product)))
