@@ -17,4 +17,4 @@
                              (:file "project-euler-006-tests")
                              (:file "project-euler-007-tests")
                              (:file "project-euler-009-tests"))))
-  :perform (asdf:test-op (op c) (uiop:symbol-call :parachute :test  :cl-problem-solving-tests)))
+  :perform (asdf:test-op (op c) (uiop:symbol-call :parachute :test :cl-problem-solving-tests)))

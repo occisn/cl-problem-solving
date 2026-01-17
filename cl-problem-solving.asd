@@ -29,4 +29,3 @@
                     (format t "~%Welcome in cl-problem-solving!~%~%")
                     (format t "Execute (cl-problem-solving:main) to solve all available problems at once.~%"))
   :in-order-to ((asdf:test-op (asdf:test-op :cl-problem-solving-tests))))
-
