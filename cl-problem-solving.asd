@@ -24,6 +24,8 @@
                  (:file "project-euler-006")
                  (:file "project-euler-007")
                  (:file "project-euler-009")
+                 (:file "tupper")
+                 ;;
                  (:file "main"))))
   :perform (load-op :after (op c)
                     (format t "~%Welcome in cl-problem-solving!~%~%")
