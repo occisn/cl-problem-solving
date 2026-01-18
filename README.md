@@ -22,7 +22,7 @@ Project Euler problems solved are: [1](https://projecteuler.net/problem=1), [2](
 
 Tupper's self-referential formula is a formula that visually represents itself when graphed on plane.
 
-See [Wikipedia](https://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula) or [Worlfram MathWorld](https://mathworld.wolfram.com/TuppersSelf-ReferentialFormula.html).
+See [Wikipedia](https://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula) or [Wolfram MathWorld](https://mathworld.wolfram.com/TuppersSelf-ReferentialFormula.html).
 
 Formula:
 
