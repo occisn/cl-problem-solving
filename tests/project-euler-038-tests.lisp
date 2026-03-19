@@ -1,0 +1,6 @@
+(in-package :cl-problem-solving-tests)
+
+(parachute:define-test test-project-euler-038
+  (parachute:is = 932718654 (project-euler-038)))
+
+;; end
