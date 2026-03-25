@@ -2,8 +2,6 @@
 
 Hobby project using Common Lisp to solve numeric puzzles as those proposed by Project Euler. 
 
-This is a personal, exploratory project with no fixed roadmap. Its aim is essentially to improve my skills. Development happens irregularly as time permits.
-
 When relevant, an optimized solution, compiling with no note under `(speed 3)` is proposed.
 
 A test suite is proposed.
