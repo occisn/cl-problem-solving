@@ -1,3 +1,7 @@
+;;;; Project Euler 18: alternative implementations.
+;;;;
+;;;; https://projecteuler.net/problem=18
+
 (in-package :cl-problem-solving)
 
 ;;; Variant 1: brute-force recursion (exponential time, works for small triangles)

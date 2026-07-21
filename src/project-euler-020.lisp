@@ -1,3 +1,7 @@
+;;;; Project Euler 20.
+;;;;
+;;;; https://projecteuler.net/problem=20
+
 (in-package :cl-problem-solving)
 
 (defun pe020--factorial (n)

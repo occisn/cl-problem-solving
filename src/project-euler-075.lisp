@@ -1,3 +1,7 @@
+;;;; Project Euler 75.
+;;;;
+;;;; https://projecteuler.net/problem=75
+
 (in-package :cl-problem-solving)
 
 ;;; Count perimeters with exactly one Pythagorean triple, using Euclid's formula for

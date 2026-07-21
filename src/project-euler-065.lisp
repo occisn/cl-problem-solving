@@ -1,3 +1,7 @@
+;;;; Project Euler 65.
+;;;;
+;;;; https://projecteuler.net/problem=65
+
 (in-package :cl-problem-solving)
 
 (defun pe065--sum-of-digits-bigint (n)

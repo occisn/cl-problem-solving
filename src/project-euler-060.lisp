@@ -1,3 +1,7 @@
+;;;; Project Euler 60.
+;;;;
+;;;; https://projecteuler.net/problem=60
+
 (in-package :cl-problem-solving)
 
 ;;; Build a hash table of prime pairs (p1,p2) where concatenating in both

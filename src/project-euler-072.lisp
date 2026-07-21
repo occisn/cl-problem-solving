@@ -1,3 +1,7 @@
+;;;; Project Euler 72.
+;;;;
+;;;; https://projecteuler.net/problem=72
+
 (in-package :cl-problem-solving)
 
 ;;; |F_n| = 1 + sum_{d=1}^{n} phi(d). Use a totient sieve for efficiency.

@@ -1,7 +1,9 @@
+;;;; Entry point: run every available solution in turn.
+
 (in-package :cl-problem-solving)
 
 (defun main ()
-  
+  "Print the answer to every problem solved in this system."
   (format t "Project Euler   1: ~a~%" (project-euler-001))
   (format t "Project Euler   2: ~a~%" (project-euler-002))
   (format t "Project Euler   3: ~a~%" (project-euler-003))

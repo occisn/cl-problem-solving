@@ -1,3 +1,7 @@
+;;;; Project Euler 51.
+;;;;
+;;;; https://projecteuler.net/problem=51
+
 (in-package :cl-problem-solving)
 
 ;;; For each number, try all bitmasks of digit positions to replace with the same digit.

@@ -1,3 +1,7 @@
+;;;; Project Euler 15: alternative implementations.
+;;;;
+;;;; https://projecteuler.net/problem=15
+
 (in-package :cl-problem-solving)
 
 ;;; Variant 1: recursive brute force (too slow for n=20)

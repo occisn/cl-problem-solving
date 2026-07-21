@@ -1,3 +1,5 @@
+;;;; Devil Math Facts puzzles.
+
 (in-package :cl-problem-solving)
 
 ;;; Devil Math Facts from various sources.

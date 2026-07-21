@@ -1,3 +1,7 @@
+;;;; Project Euler 14: alternative implementations.
+;;;;
+;;;; https://projecteuler.net/problem=14
+
 (in-package :cl-problem-solving)
 
 ;;; Variant: no cache, direct computation (slower)

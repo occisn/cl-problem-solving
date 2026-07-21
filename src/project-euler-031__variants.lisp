@@ -1,3 +1,7 @@
+;;;; Project Euler 31: alternative implementations.
+;;;;
+;;;; https://projecteuler.net/problem=31
+
 (in-package :cl-problem-solving)
 
 ;;; Variant: brute-force nested loops (original approach)

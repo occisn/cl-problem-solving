@@ -1,3 +1,7 @@
+;;;; Project Euler 11.
+;;;;
+;;;; https://projecteuler.net/problem=11
+
 (in-package :cl-problem-solving)
 
 (defun project-euler-011 ()

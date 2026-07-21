@@ -1,3 +1,5 @@
+;;;; Tests for: Mathematical anecdotes and curiosities from @AnecdotesMaths.
+
 (in-package :cl-problem-solving-tests)
 
 (parachute:define-test test-anecdotes-maths

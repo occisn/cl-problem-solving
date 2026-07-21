@@ -1,3 +1,7 @@
+;;;; Project Euler 18.
+;;;;
+;;;; https://projecteuler.net/problem=18
+
 (in-package :cl-problem-solving)
 
 ;;; Bottom-up iteration: start from the second-to-last row, replace each

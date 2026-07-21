@@ -1,3 +1,7 @@
+;;;; Project Euler 12: alternative implementations.
+;;;;
+;;;; https://projecteuler.net/problem=12
+
 (in-package :cl-problem-solving)
 
 ;;; Variant 1: naive loop counting divisors of each triangle number directly

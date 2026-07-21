@@ -1,3 +1,7 @@
+;;;; Project Euler 4.
+;;;;
+;;;; https://projecteuler.net/problem=4
+
 (in-package :cl-problem-solving)
 
 (declaim (inline pe004-reverse-number--fixnum))

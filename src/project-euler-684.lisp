@@ -1,3 +1,7 @@
+;;;; Project Euler 684.
+;;;;
+;;;; https://projecteuler.net/problem=684
+
 (in-package :cl-problem-solving)
 
 ;;; s(n) = smallest number with digit sum n = 10^(n div 9) * (1 + n mod 9) - 1.

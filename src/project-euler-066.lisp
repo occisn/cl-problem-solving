@@ -1,3 +1,7 @@
+;;;; Project Euler 66.
+;;;;
+;;;; https://projecteuler.net/problem=66
+
 (in-package :cl-problem-solving)
 
 ;;; Pell's equation x^2 - D*y^2 = 1, solved via continued fractions of sqrt(D).

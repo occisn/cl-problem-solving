@@ -1,3 +1,7 @@
+;;;; Project Euler 55.
+;;;;
+;;;; https://projecteuler.net/problem=55
+
 (in-package :cl-problem-solving)
 
 (defun pe055--reverse-bigint (n)
@@ -12,6 +16,7 @@
     rev))
 
 (defun pe055--palindrome-bigint-p (n)
+  "Return true if the bignum N reads the same in both directions."
   (declare (sb-ext:muffle-conditions sb-ext:compiler-note))
   (= n (pe055--reverse-bigint n)))
 

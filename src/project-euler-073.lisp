@@ -1,3 +1,7 @@
+;;;; Project Euler 73.
+;;;;
+;;;; https://projecteuler.net/problem=73
+
 (in-package :cl-problem-solving)
 
 ;;; Count fractions n/d with 1/3 < n/d < 1/2 and gcd(n,d)=1, for d <= dmax.

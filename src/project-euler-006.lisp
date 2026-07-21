@@ -1,3 +1,7 @@
+;;;; Project Euler 6.
+;;;;
+;;;; https://projecteuler.net/problem=6
+
 (in-package :cl-problem-solving)
 
 (defun project-euler-006--not-optimized (&optional (n 100))

@@ -1,3 +1,7 @@
+;;;; Project Euler 9.
+;;;;
+;;;; https://projecteuler.net/problem=9
+
 (in-package :cl-problem-solving)
 
 (defun project-euler-009--not-optimized (&optional (n 1000))

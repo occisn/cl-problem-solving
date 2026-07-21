@@ -1,3 +1,7 @@
+;;;; Project Euler 8.
+;;;;
+;;;; https://projecteuler.net/problem=8
+
 (in-package :cl-problem-solving)
 
 (defun project-euler-008 (&optional (n 13))

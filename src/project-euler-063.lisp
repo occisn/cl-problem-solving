@@ -1,3 +1,7 @@
+;;;; Project Euler 63.
+;;;;
+;;;; https://projecteuler.net/problem=63
+
 (in-package :cl-problem-solving)
 
 ;;; Math: x^n has n digits iff 10^(n-1) <= x^n < 10^n, so x <= 9

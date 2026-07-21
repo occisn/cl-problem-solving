@@ -1,3 +1,7 @@
+;;;; Project Euler 48.
+;;;;
+;;;; https://projecteuler.net/problem=48
+
 (in-package :cl-problem-solving)
 
 ;;; Modular exponentiation to avoid bignum arithmetic.

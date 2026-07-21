@@ -1,3 +1,5 @@
+;;;; Number theory curiosities from @fermatslibrary.
+
 (in-package :cl-problem-solving)
 
 ;;; Various number theory curiosities from Fermat's Library (@fermatslibrary).

@@ -1,3 +1,7 @@
+;;;; Project Euler 67.
+;;;;
+;;;; https://projecteuler.net/problem=67
+
 (in-package :cl-problem-solving)
 
 ;;; Same algorithm as PE018 (bottom-up iteration) but with a 100-row triangle from file.

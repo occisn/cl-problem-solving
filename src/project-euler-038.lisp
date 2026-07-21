@@ -1,3 +1,7 @@
+;;;; Project Euler 38.
+;;;;
+;;;; https://projecteuler.net/problem=38
+
 (in-package :cl-problem-solving)
 
 (declaim (inline pe038--pandigital-9-p))

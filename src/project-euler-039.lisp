@@ -1,3 +1,7 @@
+;;;; Project Euler 39.
+;;;;
+;;;; https://projecteuler.net/problem=39
+
 (in-package :cl-problem-solving)
 
 (defun project-euler-039 (&optional (pmax 1000))

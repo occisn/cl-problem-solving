@@ -1,3 +1,7 @@
+;;;; Project Euler 25.
+;;;;
+;;;; https://projecteuler.net/problem=25
+
 (in-package :cl-problem-solving)
 
 ;;; Compare to 10^(nb-digits-1) threshold instead of counting digits each iteration.

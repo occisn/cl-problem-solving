@@ -7,11 +7,44 @@ When relevant, an optimized solution, compiling with no note under `(speed 3)` i
 A test suite is proposed.
 
 Table of contents:
+- [Usage](#usage)
 - [Project Euler](#project-euler)
 - [Other puzzles](#other-puzzles)
 - [Tupper formula](#tupper-formula)
+- [License](#license)
 
 Any comment? Open an [issue](https://github.com/occisn/cl-problem-solving/issues), or start a discussion [here](https://github.com/occisn/cl-problem-solving/discussions) or [at profile level](https://github.com/occisn/occisn/discussions).
+
+# Usage
+
+Register the project with ASDF, from the REPL or once and for all in your `.sbclrc`:
+
+```lisp
+(push #P"c:/.../cl-problem-solving/" asdf:*central-registry*)
+```
+
+Then load it and solve everything at once:
+
+```lisp
+(asdf:load-system :cl-problem-solving)
+(cl-problem-solving:main)
+```
+
+Each problem is exported individually. Where a plainer version is kept beside
+the optimized one, its name carries a `--` suffix saying what it is:
+
+```lisp
+(cl-problem-solving:project-euler-001)                 ; => 233168
+(cl-problem-solving:project-euler-001--not-optimized)  ; same answer, plainer code
+(cl-problem-solving:project-euler-001 10)              ; => 23
+```
+
+To run the test suite:
+
+```lisp
+(asdf:test-system :cl-problem-solving)
+(parachute:test :cl-problem-solving-tests)             ; same, directly
+```
 
 # Project Euler
 
@@ -46,5 +79,11 @@ Output:
 ![output](./pics/tupper-output.png)
 
 I have added this code to [Rosetta Code](https://rosettacode.org/wiki/Tupper%27s_self-referential_formula).
+
+# License
+
+Copyright (c) 2025 Nicolas Occis
+
+Licensed under the MIT License.
 
 (end of README)

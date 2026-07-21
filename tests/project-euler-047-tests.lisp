@@ -1,3 +1,5 @@
+;;;; Tests for Project Euler 47.
+
 (in-package :cl-problem-solving-tests)
 
 (parachute:define-test test-project-euler-047

@@ -1,3 +1,7 @@
+;;;; Project Euler 28.
+;;;;
+;;;; https://projecteuler.net/problem=28
+
 (in-package :cl-problem-solving)
 
 ;;; Direct computation: walk the spiral diagonals without building the grid.

@@ -1,3 +1,7 @@
+;;;; Project Euler 30.
+;;;;
+;;;; https://projecteuler.net/problem=30
+
 (in-package :cl-problem-solving)
 
 (defun project-euler-030 (&optional (lim 1000000))

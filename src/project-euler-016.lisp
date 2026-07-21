@@ -1,3 +1,7 @@
+;;;; Project Euler 16.
+;;;;
+;;;; https://projecteuler.net/problem=16
+
 (in-package :cl-problem-solving)
 
 (defun project-euler-016 (&optional (exponent 1000))

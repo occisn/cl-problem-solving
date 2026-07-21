@@ -1,3 +1,7 @@
+;;;; Project Euler 71.
+;;;;
+;;;; https://projecteuler.net/problem=71
+
 (in-package :cl-problem-solving)
 
 ;;; For each denominator q, find largest p/q < 3/7 via p = ceiling(3q/7) - 1.

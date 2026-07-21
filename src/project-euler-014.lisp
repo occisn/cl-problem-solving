@@ -1,3 +1,7 @@
+;;;; Project Euler 14.
+;;;;
+;;;; https://projecteuler.net/problem=14
+
 (in-package :cl-problem-solving)
 
 ;;; Array-cached Collatz sequence length computation.

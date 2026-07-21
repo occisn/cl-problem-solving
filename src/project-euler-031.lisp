@@ -1,3 +1,7 @@
+;;;; Project Euler 31.
+;;;;
+;;;; https://projecteuler.net/problem=31
+
 (in-package :cl-problem-solving)
 
 ;;; Classic dynamic programming coin change — bottom-up, O(n * num_coins) time.

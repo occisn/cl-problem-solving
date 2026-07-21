@@ -1,3 +1,7 @@
+;;;; Project Euler 36.
+;;;;
+;;;; https://projecteuler.net/problem=36
+
 (in-package :cl-problem-solving)
 
 (declaim (inline pe036--reverse-number))

@@ -1,3 +1,7 @@
+;;;; Project Euler 3.
+;;;;
+;;;; https://projecteuler.net/problem=3
+
 (in-package :cl-problem-solving)
 
 (defun pe003-largest-prime-factor (n)
@@ -34,8 +38,8 @@
                (incf i 6)))))
 
     ;; If n is still > 1, it is prime
-    (if (> n 1)
-        (setf largest n))
+    (when (> n 1)
+      (setf largest n))
 
     largest))
 

@@ -1,3 +1,7 @@
+;;;; Project Euler 24.
+;;;;
+;;;; https://projecteuler.net/problem=24
+
 (in-package :cl-problem-solving)
 
 (defun pe024--next-lexicographic-permutation (vec)

@@ -1,3 +1,7 @@
+;;;; Project Euler 62.
+;;;;
+;;;; https://projecteuler.net/problem=62
+
 (in-package :cl-problem-solving)
 
 ;;; Hash table approach: group cubes by sorted digits, find first group of target size.

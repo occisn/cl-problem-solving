@@ -1,3 +1,7 @@
+;;;; Project Euler 12.
+;;;;
+;;;; https://projecteuler.net/problem=12
+
 (in-package :cl-problem-solving)
 
 ;;; Math trick: T(n) = n(n+1)/2 where n and n+1 are coprime,

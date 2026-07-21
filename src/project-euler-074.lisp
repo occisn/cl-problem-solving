@@ -1,3 +1,7 @@
+;;;; Project Euler 74.
+;;;;
+;;;; https://projecteuler.net/problem=74
+
 (in-package :cl-problem-solving)
 
 (defun pe074--digit-factorial-sum (n)

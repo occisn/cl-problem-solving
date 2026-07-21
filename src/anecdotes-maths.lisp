@@ -1,3 +1,5 @@
+;;;; Mathematical anecdotes and curiosities from @AnecdotesMaths.
+
 (in-package :cl-problem-solving)
 
 ;;; Mathematical anecdotes and curiosities from @AnecdotesMaths.

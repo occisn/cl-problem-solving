@@ -1,22 +1,28 @@
 (asdf:defsystem "cl-problem-solving"
-  :name "cl-problem-solving"
-  ;; :version "1"
+  :version "1.0.0"
   :author "Nicolas Occis"
-  :licence "MIT"
+  :maintainer "Nicolas Occis"
+  :license "MIT"
+  :homepage "https://github.com/occisn/cl-problem-solving"
   :description "Problem solving in Common Lisp"
-  ;; :long-description "A long description"
-  :depends-on (;; :parachute ; for tests
-               )
+  :depends-on ()
   :serial t ; load files in order
+  ;; Compilation policy for every file of the system, set in one place.
+  ;;
+  ;; Beware: PROCLAIM is global and permanent.  It is not undone when this
+  ;; system has finished compiling, so the setting below stays in force for
+  ;; the rest of the session and applies to every other system compiled
+  ;; afterwards in the same image.
   :around-compile (lambda (next)
                     (proclaim '(optimize (debug 0) 
                                 (safety 0)
                                 (speed 3)))
                     (funcall next))
-  :components ((:file "package")
-               (:module "src"
+  :components ((:module "src"
+                :serial t
                 :components
-                ((:file "project-euler-001")
+                ((:file "package")
+                 (:file "project-euler-001")
                  (:file "project-euler-002")
                  (:file "project-euler-003")
                  (:file "project-euler-004")

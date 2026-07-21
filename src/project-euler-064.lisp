@@ -1,3 +1,7 @@
+;;;; Project Euler 64.
+;;;;
+;;;; https://projecteuler.net/problem=64
+
 (in-package :cl-problem-solving)
 
 (defun pe064--cf-period-length (n)

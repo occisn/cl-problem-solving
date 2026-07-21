@@ -1,3 +1,7 @@
+;;;; Project Euler 69.
+;;;;
+;;;; https://projecteuler.net/problem=69
+
 (in-package :cl-problem-solving)
 
 ;;; Math insight: n/phi(n) is maximized when n has the most small prime factors.

@@ -1,3 +1,7 @@
+;;;; Project Euler 26.
+;;;;
+;;;; https://projecteuler.net/problem=26
+
 (in-package :cl-problem-solving)
 
 (declaim (inline pe026--recurring-cycle-length))

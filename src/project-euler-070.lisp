@@ -1,3 +1,7 @@
+;;;; Project Euler 70.
+;;;;
+;;;; https://projecteuler.net/problem=70
+
 (in-package :cl-problem-solving)
 
 ;;; n/phi(n) is minimized when n is a product of two large primes near sqrt(10^7).

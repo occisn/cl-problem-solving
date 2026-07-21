@@ -1,3 +1,7 @@
+;;;; Project Euler 25: alternative implementations.
+;;;;
+;;;; https://projecteuler.net/problem=25
+
 (in-package :cl-problem-solving)
 
 ;;; Variant: count digits each iteration (slower due to repeated bignum digit counting)

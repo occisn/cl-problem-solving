@@ -1,3 +1,7 @@
+;;;; Project Euler 32.
+;;;;
+;;;; https://projecteuler.net/problem=32
+
 (in-package :cl-problem-solving)
 
 (declaim (inline pe032--digits-mask))

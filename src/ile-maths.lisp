@@ -1,3 +1,5 @@
+;;;; French number-to-words conversion, and Ile Maths puzzles.
+
 (in-package :cl-problem-solving)
 
 ;;; French number-to-words (pre-1990 rules), for numbers 0 to 999,999,999.

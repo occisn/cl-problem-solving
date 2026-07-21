@@ -1,3 +1,7 @@
+;;;; Project Euler 49.
+;;;;
+;;;; https://projecteuler.net/problem=49
+
 (in-package :cl-problem-solving)
 
 (declaim (inline pe049--sorted-digits))

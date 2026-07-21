@@ -1,3 +1,7 @@
+;;;; Project Euler 42.
+;;;;
+;;;; https://projecteuler.net/problem=42
+
 (in-package :cl-problem-solving)
 
 (defun pe042--word-value (word)

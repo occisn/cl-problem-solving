@@ -1,3 +1,7 @@
+;;;; Project Euler 81.
+;;;;
+;;;; https://projecteuler.net/problem=81
+
 (in-package :cl-problem-solving)
 
 ;;; Bottom-up DP: starting from bottom-right, each cell = self + min(right, below).

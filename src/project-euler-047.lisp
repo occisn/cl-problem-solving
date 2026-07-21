@@ -1,3 +1,7 @@
+;;;; Project Euler 47.
+;;;;
+;;;; https://projecteuler.net/problem=47
+
 (in-package :cl-problem-solving)
 
 (declaim (inline pe047--count-distinct-prime-factors))

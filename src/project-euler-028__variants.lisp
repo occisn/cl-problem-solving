@@ -1,3 +1,7 @@
+;;;; Project Euler 28: alternative implementations.
+;;;;
+;;;; https://projecteuler.net/problem=28
+
 (in-package :cl-problem-solving)
 
 ;;; Variant: build the actual spiral as a 2D array, then sum diagonals.

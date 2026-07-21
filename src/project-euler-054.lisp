@@ -1,3 +1,7 @@
+;;;; Project Euler 54.
+;;;;
+;;;; https://projecteuler.net/problem=54
+
 (in-package :cl-problem-solving)
 
 ;;; Poker hand evaluator. Returns a list where the car is the hand rank (0-9)
@@ -60,6 +64,7 @@
         (t (pe054--compare-ranks (cdr r1) (cdr r2)))))
 
 (defun pe054--string-split (str delimiter)
+  "Split STR on DELIMITER and return the pieces as a list of strings."
   (declare (type (simple-array character) str))
   (loop for start = 0 then (the fixnum (+ 1 finish))
         for finish = (position delimiter str :start start)

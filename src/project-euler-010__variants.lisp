@@ -1,3 +1,7 @@
+;;;; Project Euler 10: alternative implementations.
+;;;;
+;;;; https://projecteuler.net/problem=10
+
 (in-package :cl-problem-solving)
 
 ;;; Variant: next-prime loop (slower — trial division per prime)

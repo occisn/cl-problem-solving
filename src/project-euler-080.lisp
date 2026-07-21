@@ -1,3 +1,7 @@
+;;;; Project Euler 80.
+;;;;
+;;;; https://projecteuler.net/problem=80
+
 (in-package :cl-problem-solving)
 
 ;;; Use isqrt on n * 10^(2*digits) to get digits of sqrt(n) as a bignum.

@@ -1,3 +1,7 @@
+;;;; Project Euler 10.
+;;;;
+;;;; https://projecteuler.net/problem=10
+
 (in-package :cl-problem-solving)
 
 (defun project-euler-010 (&optional (n 2000000))

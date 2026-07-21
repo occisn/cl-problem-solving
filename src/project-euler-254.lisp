@@ -1,3 +1,7 @@
+;;;; Project Euler 254.
+;;;;
+;;;; https://projecteuler.net/problem=254
+
 (in-package :cl-problem-solving)
 
 ;;; sf(n) = sum of digits of f(n), where f(n) = sum of factorials of digits of n.

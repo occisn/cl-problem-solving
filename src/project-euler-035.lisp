@@ -1,3 +1,7 @@
+;;;; Project Euler 35.
+;;;;
+;;;; https://projecteuler.net/problem=35
+
 (in-package :cl-problem-solving)
 
 (declaim (inline pe035--nb-digits))

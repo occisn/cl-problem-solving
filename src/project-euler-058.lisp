@@ -1,3 +1,7 @@
+;;;; Project Euler 58.
+;;;;
+;;;; https://projecteuler.net/problem=58
+
 (in-package :cl-problem-solving)
 
 ;;; Walk the spiral diagonals (like PE028) but track the ratio of primes.

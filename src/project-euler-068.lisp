@@ -1,3 +1,7 @@
+;;;; Project Euler 68.
+;;;;
+;;;; https://projecteuler.net/problem=68
+
 (in-package :cl-problem-solving)
 
 ;;; Manual mathematical solution:

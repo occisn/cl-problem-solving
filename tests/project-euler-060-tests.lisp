@@ -1,3 +1,5 @@
+;;;; Tests for Project Euler 60.
+
 (in-package :cl-problem-solving-tests)
 
 (parachute:define-test test-project-euler-060

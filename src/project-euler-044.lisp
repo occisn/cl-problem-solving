@@ -1,3 +1,7 @@
+;;;; Project Euler 44.
+;;;;
+;;;; https://projecteuler.net/problem=44
+
 (in-package :cl-problem-solving)
 
 (declaim (inline pe044--pentagonal))

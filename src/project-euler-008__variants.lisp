@@ -1,3 +1,7 @@
+;;;; Project Euler 8: alternative implementations.
+;;;;
+;;;; https://projecteuler.net/problem=8
+
 (in-package :cl-problem-solving)
 
 ;;; Variant 1: list-of-digits approach (from cl-problem-solving-3)

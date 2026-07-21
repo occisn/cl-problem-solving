@@ -1,3 +1,7 @@
+;;;; Project Euler 17.
+;;;;
+;;;; https://projecteuler.net/problem=17
+
 (in-package :cl-problem-solving)
 
 ;;; Uses CL's built-in ~R format directive for English words,

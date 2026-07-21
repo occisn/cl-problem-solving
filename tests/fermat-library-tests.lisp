@@ -1,3 +1,5 @@
+;;;; Tests for: Number theory curiosities from @fermatslibrary.
+
 (in-package :cl-problem-solving-tests)
 
 (parachute:define-test test-fermat-library

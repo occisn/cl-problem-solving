@@ -1,3 +1,7 @@
+;;;; Project Euler 46.
+;;;;
+;;;; https://projecteuler.net/problem=46
+
 (in-package :cl-problem-solving)
 
 (defun project-euler-046 ()

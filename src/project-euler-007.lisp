@@ -1,3 +1,7 @@
+;;;; Project Euler 7.
+;;;;
+;;;; https://projecteuler.net/problem=7
+
 (in-package :cl-problem-solving)
 
 (declaim (inline pe007--primep))

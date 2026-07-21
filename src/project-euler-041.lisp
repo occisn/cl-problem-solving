@@ -1,3 +1,7 @@
+;;;; Project Euler 41.
+;;;;
+;;;; https://projecteuler.net/problem=41
+
 (in-package :cl-problem-solving)
 
 ;;; 8-digit and 9-digit pandigitals are always divisible by 3

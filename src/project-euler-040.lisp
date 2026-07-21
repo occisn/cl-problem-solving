@@ -1,3 +1,7 @@
+;;;; Project Euler 40.
+;;;;
+;;;; https://projecteuler.net/problem=40
+
 (in-package :cl-problem-solving)
 
 (defun pe040--champernowne-digit (m)

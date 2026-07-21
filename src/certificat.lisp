@@ -1,3 +1,5 @@
+;;;; The Josephus problem.
+
 (in-package :cl-problem-solving)
 
 ;;; Josephus problem: 41 students in a circle, every 3rd is eliminated.
